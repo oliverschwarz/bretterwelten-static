@@ -31,7 +31,13 @@ header, main, footer {
 }
 
 header {
-	margin: 1rem 0;
+	padding-top: 3rem;
+}
+
+h1 {
+	font-size: 1.5rem;
+	line-height: 2.5rem;
+	padding: 0 1rem;
 }
 
 main {
@@ -42,3 +48,19 @@ main {
 	border-radius: 1rem;
 }
 
+footer {
+	padding: .2rem 2rem;
+}
+
+@media screen and (min-width: 28em) {
+
+	header {
+		margin: 0 auto;
+		width: 28rem;
+	}
+	main, footer {
+		margin: 0 auto;
+		width: 26rem;
+	}
+
+}
