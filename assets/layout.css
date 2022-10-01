@@ -14,7 +14,11 @@ html,body {
 	background-color: var(--color-blue);
 	color: var(--color-lightgrey);
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	line-height: 2rem;
+	line-height: 1.8rem;
+}
+
+a {
+	color: var(--color-blue);
 }
 
 img {
@@ -28,5 +32,13 @@ header, main, footer {
 
 header {
 	margin: 1rem 0;
+}
+
+main {
+	margin: 0 1rem;
+	padding: .2rem 1rem;
+	background-color: var(--color-lightgrey);
+	color: var(--color-blue);
+	border-radius: 1rem;
 }
 
