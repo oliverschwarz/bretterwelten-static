@@ -7,7 +7,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
 	--color-yellow: 	#FCCA46;
 	--color-lightgreen: #A1C181;
 	--color-green: 		#619B8A;
-	--color-lightgrey: 	#eee;
+	--color-lightgrey: 	#ddd;
 }
 
 html,body {
@@ -45,7 +45,7 @@ main {
 	padding: .2rem 1rem;
 	background-color: var(--color-lightgrey);
 	color: var(--color-blue);
-	border-radius: 1rem;
+	border-radius: .5rem;
 }
 
 footer {
@@ -61,6 +61,19 @@ footer {
 	main, footer {
 		margin: 0 auto;
 		width: 26rem;
+	}
+
+}
+
+@media screen and (min-width: 40em) {
+
+	header {
+		margin: 0 auto;
+		width: 40rem;
+	}
+	main, footer {
+		margin: 0 auto;
+		width: 38rem;
 	}
 
 }
