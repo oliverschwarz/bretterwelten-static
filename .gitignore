@@ -2,38 +2,4 @@
 # ------------
 Icon
 .DS_Store
-
-# Temporary files
-# ---------------
-/media/*
-
-# Lock files
-# ---------------
-.lock
-
-# Editors
-# (sensitive workspace files)
-# ---------------------------
-*.sublime-workspace
-/.vscode
-/.idea
-
-# -------------SECURITY-------------
-# NEVER publish these files via Git!
-# -------------SECURITY-------------
-
-# Site Files
-# ---------------
-/site/cache/
-/site/accounts/
-/site/sessions/
-/site/config/
-
-# Content
-# ---------------
-/content/
-
-# Kirby
-# ---------------
-/kirby/
-index.php
+assets/.DS_Store
